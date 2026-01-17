@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Clock, Facebook } from "lucide-react";
+import { Phone, MapPin, Clock, Facebook } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -7,8 +7,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-foreground text-background">
-      <div className="dental-container py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="dental-container py-16">
+        <div className="grid grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-background/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-80">
+        <div className="border-t border-background/20 mt-8 pt-8 flex flex-row justify-between items-center gap-4 text-sm opacity-80">
           <p>© {currentYear} Sri Gowri Dental Care. All rights reserved.</p>
           <p>Dr. N. Sri Gowri, BDS, MDS | Regd. No. A-825</p>
         </div>

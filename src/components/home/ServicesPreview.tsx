@@ -37,7 +37,7 @@ const ServicesPreview = () => {
           <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
             Our Services
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl font-bold text-foreground mb-4">
             Comprehensive <span className="dental-text-gradient">Dental Care</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
@@ -45,7 +45,7 @@ const ServicesPreview = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+        <div className="grid grid-cols-4 gap-6 mb-10">
           {services.map((service, index) => (
             <div
               key={service.title}

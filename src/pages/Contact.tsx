@@ -3,7 +3,7 @@ import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, MapPin, Clock, Facebook, MessageCircle, Mail } from "lucide-react";
+import { Phone, MapPin, Clock, Facebook, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -48,12 +48,12 @@ Please confirm my appointment. Thank you!`;
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="dental-gradient-bg py-16 md:py-20">
+      <section className="dental-gradient-bg py-20">
         <div className="dental-container text-center">
           <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
             Contact Us
           </span>
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="text-5xl font-bold text-foreground mb-4">
             Book Your
             <span className="block dental-text-gradient">Appointment</span>
           </h1>
@@ -66,10 +66,10 @@ Please confirm my appointment. Thank you!`;
       {/* Contact Content */}
       <section className="dental-section">
         <div className="dental-container">
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-2 gap-12">
             {/* Booking Form */}
-            <div className="order-2 lg:order-1">
-              <div className="bg-card border border-border rounded-2xl p-6 md:p-8 shadow-lg">
+            <div>
+              <div className="bg-card border border-border rounded-2xl p-8 shadow-lg">
                 <h2 className="text-2xl font-bold text-foreground mb-2">
                   Book via WhatsApp
                 </h2>
@@ -152,7 +152,7 @@ Please confirm my appointment. Thank you!`;
                   <p className="text-sm text-muted-foreground text-center mb-4">
                     Or contact us directly:
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-3">
+                  <div className="flex flex-row gap-3">
                     <Button variant="call" className="flex-1" asChild>
                       <a href="tel:+917981765567">
                         <Phone className="w-4 h-4 mr-2" />
@@ -175,9 +175,9 @@ Please confirm my appointment. Thank you!`;
             </div>
 
             {/* Contact Info & Map */}
-            <div className="order-1 lg:order-2 space-y-6">
+            <div className="space-y-6">
               {/* Contact Cards */}
-              <div className="grid sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-4">
                 <a
                   href="tel:+917981765567"
                   className="dental-card flex items-start gap-4 hover:border-primary"

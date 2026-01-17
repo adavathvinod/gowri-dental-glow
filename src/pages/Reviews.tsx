@@ -76,12 +76,12 @@ const Reviews = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="dental-gradient-bg py-16 md:py-20">
+      <section className="dental-gradient-bg py-20">
         <div className="dental-container text-center">
           <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
             Patient Reviews
           </span>
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="text-5xl font-bold text-foreground mb-4">
             What Our Patients
             <span className="block dental-text-gradient">Say About Us</span>
           </h1>
@@ -123,7 +123,7 @@ const Reviews = () => {
       {/* Featured Reviews */}
       <section className="dental-section">
         <div className="dental-container">
-          <div className="grid md:grid-cols-2 gap-6 mb-12">
+          <div className="grid grid-cols-2 gap-6 mb-12">
             {reviews
               .filter((r) => r.highlight)
               .map((review, index) => (
@@ -165,7 +165,7 @@ const Reviews = () => {
           </div>
 
           {/* All Reviews */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-3 gap-6">
             {reviews
               .filter((r) => !r.highlight)
               .map((review, index) => (
@@ -205,13 +205,13 @@ const Reviews = () => {
       {/* CTA Section */}
       <section className="dental-section bg-secondary/30">
         <div className="dental-container text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl font-bold text-foreground mb-4">
             Join Our Happy Patients
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto mb-8">
             Experience the difference at Sri Gowri Dental Care. Book your appointment today!
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-row gap-4 justify-center">
             <Button variant="hero" size="lg" asChild>
               <Link to="/contact">Book Appointment</Link>
             </Button>

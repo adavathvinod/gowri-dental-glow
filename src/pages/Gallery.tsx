@@ -146,12 +146,12 @@ const Gallery = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="dental-gradient-bg py-16 md:py-20">
+      <section className="dental-gradient-bg py-20">
         <div className="dental-container text-center">
           <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
             Photo Gallery
           </span>
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="text-5xl font-bold text-foreground mb-4">
             Smile <span className="dental-text-gradient">Transformations</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -161,7 +161,7 @@ const Gallery = () => {
       </section>
 
       {/* Filter Tabs */}
-      <section className="sticky top-16 md:top-20 z-40 bg-background/95 backdrop-blur-md border-b border-border py-4">
+      <section className="sticky top-20 z-40 bg-background/95 backdrop-blur-md border-b border-border py-4">
         <div className="dental-container">
           <div className="flex flex-wrap justify-center gap-2">
             {categories.map((category) => (
@@ -184,7 +184,7 @@ const Gallery = () => {
       {/* Masonry Gallery */}
       <section className="dental-section">
         <div className="dental-container">
-          <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
+          <div className="columns-3 gap-4 space-y-4">
             {filteredImages.map((image, index) => (
               <div
                 key={image.id}
@@ -244,13 +244,13 @@ const Gallery = () => {
       {/* CTA Section */}
       <section className="dental-section bg-primary text-primary-foreground">
         <div className="dental-container text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-4xl font-bold mb-4">
             Ready for Your Transformation?
           </h2>
           <p className="text-primary-foreground/80 max-w-2xl mx-auto mb-8">
             Join thousands of happy patients who have transformed their smiles at Sri Gowri Dental Care.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-row gap-4 justify-center">
             <Button
               variant="secondary"
               size="xl"

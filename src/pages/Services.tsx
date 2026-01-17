@@ -74,12 +74,12 @@ const Services = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="dental-gradient-bg py-16 md:py-20">
+      <section className="dental-gradient-bg py-20">
         <div className="dental-container text-center">
           <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
             Our Services
           </span>
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="text-5xl font-bold text-foreground mb-4">
             Comprehensive <span className="dental-text-gradient">Dental Solutions</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -91,7 +91,7 @@ const Services = () => {
       {/* Services Grid */}
       <section className="dental-section">
         <div className="dental-container">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-2 gap-8">
             {services.map((service, index) => (
               <div
                 key={service.title}
@@ -141,13 +141,13 @@ const Services = () => {
       {/* CTA Section */}
       <section className="dental-section bg-primary text-primary-foreground">
         <div className="dental-container text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-4xl font-bold mb-4">
             Ready to Transform Your Smile?
           </h2>
           <p className="text-primary-foreground/80 max-w-2xl mx-auto mb-8">
             Book your consultation today and take the first step towards a healthier, more beautiful smile.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-row gap-4 justify-center">
             <Button
               variant="secondary"
               size="xl"

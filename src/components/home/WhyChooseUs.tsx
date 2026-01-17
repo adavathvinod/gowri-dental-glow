@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
           <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
             Why Choose Us
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl font-bold text-foreground mb-4">
             Trusted by <span className="dental-text-gradient">Thousands</span> of Patients
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
@@ -49,7 +49,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <div
               key={feature.title}
