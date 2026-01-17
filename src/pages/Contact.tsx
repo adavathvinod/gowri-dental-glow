@@ -221,7 +221,7 @@ Please confirm my appointment. Thank you!`;
                 {/* Google Map */}
                 <div className="aspect-video rounded-xl overflow-hidden border border-border">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.5!2d78.58!3d17.33!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sKuntloor%20Rd%2C%20opposite%20Substation%2C%20Hayathnagar!5e0!3m2!1sen!2sin!4v1"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.612871727759!2d78.61017517493346!3d17.334217883543943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba1096ad7e5dd%3A0xcffd43948e84871b!2sSri%20gowri%20dental%20care!5e0!3m2!1sen!2sin!4v1768655096204!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
