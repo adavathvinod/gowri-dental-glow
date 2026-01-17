@@ -17,7 +17,7 @@ const BusinessHours = () => {
   return (
     <section className="dental-section bg-foreground text-background">
       <div className="dental-container">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-2 gap-12 items-center">
           {/* Hours */}
           <div>
             <div className="flex items-center gap-3 mb-6">
@@ -25,7 +25,7 @@ const BusinessHours = () => {
                 <Clock className="w-6 h-6 text-primary-foreground" />
               </div>
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold">Business Hours</h2>
+                <h2 className="text-3xl font-bold">Business Hours</h2>
                 <p className="text-background/70 text-sm">We're here when you need us</p>
               </div>
             </div>
@@ -82,7 +82,7 @@ const BusinessHours = () => {
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-3">
+            <div className="flex flex-row gap-3">
               <Button
                 variant="whatsapp"
                 size="lg"

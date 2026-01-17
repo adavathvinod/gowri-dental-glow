@@ -39,10 +39,10 @@ const HeroSlider = () => {
 
   return (
     <section className="relative overflow-hidden dental-gradient-bg">
-      <div className="dental-container py-8 md:py-16">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+      <div className="dental-container py-16">
+        <div className="grid grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div className="order-2 lg:order-1 text-center lg:text-left animate-slide-up">
+          <div className="text-left animate-slide-up">
             {/* Rating Badge */}
             <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-4 py-2 rounded-full mb-6">
               <div className="flex">
@@ -53,18 +53,18 @@ const HeroSlider = () => {
               <span className="text-sm font-semibold text-primary">5.0 Rating | 35+ Reviews</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4 leading-tight">
+            <h1 className="text-6xl font-bold text-foreground mb-4 leading-tight">
               Your Perfect Smile
               <span className="block dental-text-gradient">Starts Here</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0">
+            <p className="text-xl text-muted-foreground mb-8 max-w-xl">
               Experience affordable, quality dental care with 12+ years of excellence. 
               Led by Dr. N. Sri Gowri, BDS, MDS.
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex flex-row gap-4">
               <Button variant="hero" size="xl" asChild>
                 <Link to="/contact">Book Appointment</Link>
               </Button>
@@ -77,14 +77,14 @@ const HeroSlider = () => {
 
             {/* Emergency Banner */}
             <div className="mt-8 p-4 bg-destructive/10 border border-destructive/20 rounded-xl">
-              <p className="text-sm font-semibold text-destructive flex items-center justify-center lg:justify-start gap-2">
+              <p className="text-sm font-semibold text-destructive flex items-center gap-2">
                 🚨 24/7 Emergency Care Available
               </p>
             </div>
           </div>
 
           {/* Slider */}
-          <div className="order-1 lg:order-2 relative">
+          <div className="relative">
             <div className="relative aspect-[3/4] max-w-sm mx-auto rounded-2xl overflow-hidden shadow-2xl">
               {slides.map((slide, index) => (
                 <div

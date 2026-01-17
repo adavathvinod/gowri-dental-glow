@@ -10,14 +10,14 @@ const About = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="dental-gradient-bg py-16 md:py-20">
+      <section className="dental-gradient-bg py-20">
         <div className="dental-container">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-2 gap-12 items-center">
             <div>
               <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
                 About Us
               </span>
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+              <h1 className="text-5xl font-bold text-foreground mb-4">
                 Affordable & Quality
                 <span className="block dental-text-gradient">Dental Care</span>
               </h1>
@@ -77,8 +77,8 @@ const About = () => {
       {/* Doctor Section */}
       <section className="dental-section">
         <div className="dental-container">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1">
+          <div className="grid grid-cols-2 gap-12 items-center">
+            <div>
               <img
                 src={clinicChair}
                 alt="Modern Dental Equipment"
@@ -86,8 +86,8 @@ const About = () => {
               />
             </div>
 
-            <div className="order-1 lg:order-2">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+            <div>
+              <h2 className="text-4xl font-bold text-foreground mb-6">
                 Meet Our <span className="dental-text-gradient">Expert</span>
               </h2>
 
@@ -129,7 +129,7 @@ const About = () => {
       <section className="dental-section bg-secondary/30">
         <div className="dental-container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-4xl font-bold text-foreground mb-4">
               Our <span className="dental-text-gradient">Core Values</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
@@ -137,7 +137,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-4 gap-6">
             {[
               {
                 icon: Heart,
@@ -176,7 +176,7 @@ const About = () => {
       <section className="dental-section">
         <div className="dental-container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-4xl font-bold text-foreground mb-4">
               Smile <span className="dental-text-gradient">Transformations</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
